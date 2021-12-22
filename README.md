@@ -20,6 +20,7 @@ RegisterNumber: 21002766
 '''
 
 import numpy as np
+
 import sys
 
 n = int(input())
@@ -29,7 +30,9 @@ a = np.zeros((n,n+1))
 X = np.zeros(n)
 
 for i in range(n):
+
     for j in range(n+1):
+    
             a[i][j] = float(input())
         
 for i in range(n):
