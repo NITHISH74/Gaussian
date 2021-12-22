@@ -18,8 +18,8 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 Developed by: NITHISHWAR S
 RegisterNumber: 21002766
 '''
-import numpy as np
 
+import numpy as np
 import sys
 
 n = int(input())
