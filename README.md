@@ -33,20 +33,33 @@ for i in range(n):
             a[i][j] = float(input())
         
 for i in range(n):
+
     if a[i][i] == 0.0:
+    
             sys.exit('Divide by zero detected')
+            
     for j in range(i+1, n):
+    
         ratio = a[j][i]/a[i][i]
+        
         for k in range(n+1):
+        
             a[j][k] = a[j][k] - ratio * a[i][k]
+            
 X[n-1] = a[n-1][n]/a[n-1][n-1]
 
 for i in range(n-2,-1,-1):
+
     X[i] = a[i][n]
+    
        for j in range(i+1,n):
+       
         X[i] = X[i] - a[i][j]*X[j]
+        
     X[i] = X[i]/a[i][i]
+    
 for i in range(n):
+
     print('X%d = %0.2f' %(i,X[i]), end = ' ')
 
 
