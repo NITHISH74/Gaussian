@@ -10,12 +10,15 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 ## Algorithm
 1. Start the program.
 2. Import numpy as py and import sys.
-3. Using the for loop to check the given entries and solve it.
-4. To display the output of the program.
+3. Using the sys.exit to check divide by zero detected.
+4. Using the for loop to check the given entries and solve it.
+5. To display the output of the program.
 
 ## Program:
 '''Program to solve a matrix using Gaussian elimination with partial pivoting.
+
 Developed by: NITHISHWAR S
+
 RegisterNumber: 21002766
 '''
 
