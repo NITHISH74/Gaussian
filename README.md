@@ -15,6 +15,7 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 5. To display the output of the program.
 
 ## Program:
+```
 '''Program to solve a matrix using Gaussian elimination with partial pivoting.
 
 Developed by: NITHISHWAR S
@@ -67,7 +68,7 @@ for i in range(n-2,-1,-1):
 for i in range(n):
 
     print('X%d = %0.2f' %(i,X[i]), end = ' ')
-
+```
 
 ## Output:
 ![image](https://user-images.githubusercontent.com/94164665/147044091-20e53c5a-b951-445c-9fc5-78cd42b69196.png)
